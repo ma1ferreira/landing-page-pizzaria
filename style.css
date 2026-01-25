@@ -13,11 +13,16 @@
 
 /* escrever texto sobre essas opções de acessibilidade, medidas melhores para nao ter que ficar ajustando os px toda hora */
 html {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     font-size: 62.5%;
     overflow-x: hidden; /* tira barra de rolagem horizontal */
-    background-color: #fff3e0;
+    background-color: #41080a;
+}
+
+body {
+    width: 100%;
+    height: 100%;
 }
 
 .content {
@@ -94,8 +99,8 @@ html {
 }
 
 .first-section img {
-    width: 30vw;
-    margin-left: 10rem;
+    max-width: 100%;
+    margin-left: 0;
 }
 
 .first-section h1 {
@@ -144,7 +149,7 @@ html {
 .sobre-nos {
     width: 100%;
     padding-bottom: 5rem;
-    height: 50vh;
+    min-height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,7 +159,7 @@ html {
 .sobre-nos img {
     width: 300px;
     height: 300px;
-    margin-top: 10rem;
+    margin-top: 5rem;
     margin-left: 6rem;
     border: 2px solid rgb(255, 192, 55);
 }
@@ -193,7 +198,6 @@ html {
     align-items: center;
     justify-content: center;
     background-color: #41080a;
-    margin-top: 5rem;
 }
 
 .cardapio h2 {
@@ -334,4 +338,310 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* responsividade */
+
+@media (max-width: 1100px) {
+    .main {
+        display: block;
+    }
+
+    .content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 1rem 0;
+    }
+
+    .logo {
+        margin-left: 0px;
+    }
+
+    .sobre-nos h2 {
+        margin-top: 3rem;
+    }
+
+    .sobre-nos img {
+        margin: 3rem 0 0 15rem;
+        width: 280px;
+        height: auto;
+    }
+}
+
+@media (max-width: 720px) {
+    html {
+        font-size: 50%;
+    }
+
+    .sobre-nos img {
+        margin: 3rem 0 0 20rem;
+        width: 280px;
+        height: auto;
+    }
+
+    .itens-cardapio {
+        grid-template-columns: repeat(2 , minmax(50px, 350px) );
+    }
+
+    .itens-cardapio .info h4 {
+        margin-left: 12rem;
+    }
+
+}
+
+@media (max-width: 690px) {
+    .html {
+        font-size: 45%;
+    }
+    
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px 40px;
+    }
+
+    .content nav {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+        z-index: 2000;
+    }
+
+    .content.on {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(65, 8, 10, 0.8);
+        z-index: 1000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content.on nav {
+        display: block;
+    }
+
+    .content.on .logo {
+        display: none;
+    }
+
+    .content.on .menu-toggle {
+        position: absolute;
+        right: 40px;
+        top: 20px;
+    }
+
+    .content.on .list-menu {
+        display: block;
+        flex-direction: column;
+
+    }
+
+    .content.on .list-menu li {
+        display: flex;
+        justify-content: center;
+    }
+
+    .content.on .list-menu li a {
+        font-size: 2rem;
+    }
+
+    .content.on .menu-toggle .two {
+        opacity: 0;
+    }
+
+    .content.on .menu-toggle .one {
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+    
+    .content.on .menu-toggle .three {
+        transform: rotate(-45deg) translate(8px, -8px);
+    }
+
+    .one, .two, .three {
+        background-color: #fff3e0;
+        height: 2px;
+        width: 80%;
+        margin: 4px 0;
+        transition-duration: 0.4s;
+    }
+
+    
+    .itens-cardapio {
+        grid-template-columns: repeat(2 , minmax(50px, 350px) );
+    }
+
+    .itens-cardapio .info  {
+        width: 100%;
+    }   
+
+    .contatos-secao {
+        display: block;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .contatos-secao div {
+        margin-bottom: 8px;
+    }
+
+    footer {
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 645px) {
+
+    .itens-cardapio .info strong {
+        margin-left: -1rem;
+    }
+}
+
+@media (max-width: 620px) {
+
+    .sobre-nos h2 {
+        text-align: justify;
+    }
+
+    .sobre-nos p {
+        text-align: justify;
+        width: 500px;
+    }
+
+    .sobre-nos img {
+        margin: 20px 20px 0 130px;
+        width: 250px;
+        height: auto;
+    }
+
+    .itens-cardapio .info p {
+        width: 180px;
+    }
+
+}
+
+@media (max-width: 580px) {
+    .itens-cardapio {
+        grid-template-columns: repeat(auto-fit , minmax(30px, 300px) );
+        }
+
+        .itens-cardapio .info p {
+        width: 200px;
+    }
+ }
+
+
+@media (max-width: 540px) {
+    .conteudo-principal h1 {
+        width: 500px;
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .sobre-nos h2 {
+        text-align: justify;
+    }
+
+    .sobre-nos p {
+        text-align: justify;
+        width: 450px;
+    }
+
+    .sobre-nos img {
+        margin: 20px 20px 0 100px;
+        width: 250px;
+        height: auto;
+    }
+
+    .itens-cardapio .info p {
+        width: 180px;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 470px) {
+    .conteudo-principal h1 {
+        width: 500px;
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .conteudo-principal h2 {
+        width: 400px;
+        text-align: center;
+        font-size: 3rem;
+    }
+    
+    .btn {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        margin-bottom: -80px;
+    }
+   
+
+    .sobre-nos h2 {
+        text-align: justify;
+    }
+
+    .sobre-nos p {
+        text-align: justify;
+        width: 300px;
+    }
+
+    .sobre-nos img {
+        margin: 20px 20px 0 25px;
+        width: 250px;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 430px) {
+    .conteudo-principal h1 {
+        width: 500px;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .conteudo-principal h2 {
+        width: 500px;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .btn button {
+        width: 180px;
+        height: 45px;
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .conteudo-principal h1 {
+        width: 500px;
+        text-align: center;
+        font-size: 2.3rem;
+    }
+
+    .conteudo-principal h2 {
+        width: 500px;
+        text-align: center;
+        font-size: 1.9rem;
+    }
 }
