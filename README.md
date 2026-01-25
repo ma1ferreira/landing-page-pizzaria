@@ -3,7 +3,7 @@
 <p>A partir disso, adaptei o conteúdo para um design próprio, respeitando o processo de aprendizagem.</p>
 
 
-🔗 <strong>canal da Cris:<;strong>
+🔗 <strong>canal da Cris:<strong>
 https://youtube.com/@cristech20?si=aBNwimXvpI6lla2P
 
 🍕 <strong>objetivos do projeto:</strong>
