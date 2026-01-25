@@ -13,8 +13,7 @@ https://youtube.com/@cristech20?si=aBNwimXvpI6lla2P
 <li>entender e aplicar diferentes unidades de medida do CSS</li>
 <li>adaptar todo o conteúdo para diferentes telas sem scroll horizontal</li>
 </ul>
-<br>
+
 ![pizza-da-vila](https://github.com/user-attachments/assets/7c87a9ef-d60b-4610-b007-542d7de2c952)
-<br>
 
 
