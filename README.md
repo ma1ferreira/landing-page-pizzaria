@@ -6,12 +6,15 @@
 🔗 <strong>canal da Cris:<;strong>
 https://youtube.com/@cristech20?si=aBNwimXvpI6lla2P
 
-🍕 >strong>objetivos do projeto:</objeto>
+🍕 <strong>objetivos do projeto:</strong>
 <ul>
 <li>fixar conceitos de responsividade com @media query</li>
 <li>trabalhar com menu hamburger para dispositivos mobile</li>
 <li>entender e aplicar diferentes unidades de medida do CSS</li>
 <li>adaptar todo o conteúdo para diferentes telas sem scroll horizontal</li>
 </ul>
+
+![pizza-da-vila](https://github.com/user-attachments/assets/7c87a9ef-d60b-4610-b007-542d7de2c952)
+![pizza-da-vila-menu](https://github.com/user-attachments/assets/6d06ca7f-c140-41a8-a0cd-696b8173f7f1)
 
 
