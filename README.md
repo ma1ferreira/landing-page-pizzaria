@@ -5,14 +5,10 @@
 🔗 <strong>Canal da Cris:</strong>
 https://youtube.com/@cristech20?si=aBNwimXvpI6lla2P
 
-🍕 <strong>Objetivos do projeto:</strong>
-<ul>
-<li>Fixar conceitos de responsividade com @media query</li>
-<li>Trabalhar com menu hamburger para dispositivos mobile</li>
-<li>Entender e aplicar diferentes unidades de medida do CSS</li>
-<li>Adaptar todo o conteúdo para diferentes telas sem scroll horizontal</li>
-</ul>
+### 🍕 Objetivos do projeto:
+  - Fixar conceitos de responsividade com @media query
+  - Aprender a fazer um menu hamburger para dispositivos mobile
+  - Aplicar diferentes unidades de medida do CSS
+  - Adaptar todo o conteúdo para diferentes telas sem scroll horizontal
 
 ![pizza-da-vila](https://github.com/user-attachments/assets/7c87a9ef-d60b-4610-b007-542d7de2c952)
-
-
