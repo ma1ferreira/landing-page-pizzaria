@@ -3,15 +3,15 @@
 <p>A partir disso, adaptei o conteúdo para um design próprio, respeitando o processo de aprendizagem.</p>
 
 
-🔗 <strong>canal da Cris:<strong>
+🔗 <strong>Canal da Cris:<strong>
 https://youtube.com/@cristech20?si=aBNwimXvpI6lla2P
 
-🍕 <strong>objetivos do projeto:</strong>
+🍕 <strong>Objetivos do projeto:</strong>
 <ul>
-<li>fixar conceitos de responsividade com @media query</li>
-<li>trabalhar com menu hamburger para dispositivos mobile</li>
-<li>entender e aplicar diferentes unidades de medida do CSS</li>
-<li>adaptar todo o conteúdo para diferentes telas sem scroll horizontal</li>
+<li>Fixar conceitos de responsividade com @media query</li>
+<li>Trabalhar com menu hamburger para dispositivos mobile</li>
+<li>Entender e aplicar diferentes unidades de medida do CSS</li>
+<li>Adaptar todo o conteúdo para diferentes telas sem scroll horizontal</li>
 </ul>
 
 ![pizza-da-vila](https://github.com/user-attachments/assets/7c87a9ef-d60b-4610-b007-542d7de2c952)
