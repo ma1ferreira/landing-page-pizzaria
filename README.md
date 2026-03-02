@@ -1,6 +1,5 @@
 <p>Este projeto é uma landing page para uma pizzaria, desenvolvida com html, css e javascript, com foco na prática de layout responsivo.</p>
-<p>O projeto foi desenvolvido seguindo a série de 3 vídeos da Crislaine D’Paula “Landing Page Pizzaria”, que tem uma didática maravilhosa!</p>
-<p>A partir disso, adaptei o conteúdo para um design próprio, respeitando o processo de aprendizagem.</p>
+<p>O projeto foi desenvolvido seguindo a série de 3 vídeos da Crislaine D’Paula “Landing Page Pizzaria”, que tem uma didática maravilhosa! A partir disso, adaptei o conteúdo para um design próprio, respeitando o processo de aprendizagem.</p>
 
 
 🔗 <strong>Canal da Cris:<strong>
