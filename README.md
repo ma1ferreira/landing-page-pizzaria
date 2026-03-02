@@ -5,7 +5,7 @@
 🔗 <strong>Canal da Cris:<strong>
 https://youtube.com/@cristech20?si=aBNwimXvpI6lla2P
 
-🍕 ### Objetivos do projeto:
+## 🍕 Objetivos do projeto:
 • Fixar conceitos de responsividade com @media query</li>
 • Trabalhar com menu hamburger para dispositivos mobile</li>
 • Entender e aplicar diferentes unidades de medida do CSS</li>
