@@ -5,7 +5,7 @@
 🔗 <strong>Canal da Cris:</strong>
 https://youtube.com/@cristech20?si=aBNwimXvpI6lla2P
 
- 🍕 <strong>Objetivos do projeto:</strong>
+🍕 <strong>Objetivos do projeto:</strong>
 <ul>
 <li>Fixar conceitos de responsividade com @media query</li>
 <li>Trabalhar com menu hamburger para dispositivos mobile</li>
