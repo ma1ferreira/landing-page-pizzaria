@@ -2,7 +2,7 @@
 <p>O projeto foi desenvolvido seguindo a série de 3 vídeos da Crislaine D’Paula “Landing Page Pizzaria”, que tem uma didática maravilhosa! A partir disso, adaptei o conteúdo para um design próprio, respeitando o processo de aprendizagem.</p>
 
 
-🔗 <strong>Canal da Cris:<strong>
+🔗 <strong>Canal da Cris:</strong>
 https://youtube.com/@cristech20?si=aBNwimXvpI6lla2P
 
 ### 🍕 Objetivos do projeto:
